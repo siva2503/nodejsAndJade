@@ -1,0 +1,2 @@
+//this is to ignore all the node_modules installed for the repository.
+node_modules/
