@@ -1,0 +1,17 @@
+{
+  "name": "mel-chaty",
+  "version": "1.0.0",
+  "description": "Simple webchat Application",
+  "main": "main.js",
+  "scripts": {
+    "test": "nodemon main.js",
+    "start": "nodemon main.js"
+  },
+  "author": "siva2503@yahoo.co.in",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "jade": "^1.11.0",
+    "socket.io": "^2.0.3"
+  }
+}

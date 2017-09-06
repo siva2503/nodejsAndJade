@@ -1,0 +1,18 @@
+//This file is intent to hold the html page with three fields mentioned belo
+//Username, message, Send button
+//Content holds the screen and displays the messages sent and received.
+
+doctype
+html
+	head
+		title= "Simple Chat tool by sivakumar natarajan"
+		script(src='/homepage.js')
+		script(src='/socket.io/socket.io.js')
+	body
+		#content(style='width: 500px; height: 300px; margin: 0 0 20px 0; border: solid 1px #999; overflow-y: scroll;')
+		.controls
+			| Name:
+			input#name(style='width:350px;')
+			br
+			input#field(style='width:350px;')
+			input#send(type='button', value='send')
